@@ -37,10 +37,11 @@ a {
     align-items: center;
     border: none;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 800;
     border-radius: 10px;
     height: 44px;
     padding: 0;
+    cursor: pointer;
 }
 
 .scroll-y-disabled {
@@ -64,8 +65,7 @@ a {
 
 @media(min-width: 576px) {
 
-    .container,
-    .container-sm {
+    .container {
         max-width: 540px;
     }
 
@@ -82,9 +82,7 @@ a {
 
 @media(min-width: 768px) {
 
-    .container,
-    .container-md,
-    .container-sm {
+    .container {
         max-width: 720px
     }
 
@@ -103,21 +101,14 @@ a {
 
 @media(min-width: 992px) {
 
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm {
+    .container {
         max-width: 960px
     }
 }
 
 @media(min-width: 1200px) {
 
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
+    .container {
         max-width: 1170px;
     }
 }

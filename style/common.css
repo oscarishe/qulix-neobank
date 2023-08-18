@@ -91,6 +91,14 @@ a {
     .section-title {
         font-size: 45px;
     }
+
+    .backdrop.active {
+        display: none;
+    }
+
+    .scroll-y-disabled {
+        overflow-y: visible;
+    }
 }
 
 @media(min-width: 992px) {

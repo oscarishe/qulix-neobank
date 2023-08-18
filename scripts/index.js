@@ -1,8 +1,9 @@
 const burgerButton = document.querySelector('.header-burger');
 const headerNav = document.querySelector('.header-nav');
 const backdrop = document.querySelector('.backdrop');
-const navLinks = document.querySelectorAll('.header-nav__link')
-const headerTogglers = [burgerButton, backdrop, ...navLinks];
+const closeButton = document.querySelector('.header-nav__close-button');
+const navLinks = document.querySelectorAll('.header-nav__link');
+const headerTogglers = [burgerButton, backdrop, closeButton, ...navLinks];
 
 headerTogglers.forEach(toggler => {
     toggler.addEventListener('click', () => {

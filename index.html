@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/banner.css">
+    <link rel="stylesheet" href="./style/target-audience.css">
+    <link rel="stylesheet" href="./style/speaker.css">
+    <title>Qulix neobank webinar</title>
+</head>
+
+<body>
+    <section class="banner" id="banner">
+        <div class="container">
+            <header class="header">
+                <img src="./assets/images/header/logo.png" alt="Logo" class="header__image">
+                <nav class="header-nav">
+                    <a href="#target-audience" class="header-nav__link">
+                        Target audience
+                    </a>
+                    <a href="#banner" class="header-nav__link">
+                        Summary
+                    </a>
+                    <a href="#speaker" class="header-nav__link">
+                        Speaker
+                    </a>
+                    <button class="header-nav__close-button">
+                        X
+                    </button>
+                </nav>
+                <button class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+            <div class="banner-content">
+                <div class="main-uppertitle">
+                    Free webinar
+                </div>
+                <h1 class="main-title">
+                    How to launch<br> a neobank in 6 months?
+                </h1>
+                <h2 class="main-subtitle">
+                    Register for the webinar now! Please fill out all fields
+                </h2>
+                <form class="main-form">
+                    <div class="main-form__container">
+                        <input type="text" placeholder="First name*" class="main-form__input" required>
+                        <input type="text" placeholder="Last name*" class="main-form__input" required>
+                        <input type="text" placeholder="Company name*" class="main-form__input" required>
+                        <input type="email" placeholder="Email address*" class="main-form__input" required>
+                    </div>
+                    <button class="main-form__button button">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="target-audience" id="target-audience">
+        <div class="container">
+            <h2 class="section-title">
+                The webinar is best for
+            </h2>
+            <div class="target-audience__container">
+                <div class="target-audience__item">
+                    <img src="./assets/images/target-audience/start_up.png" alt="Startup pic" class="target-audience__image">
+                    <p class="target-audience__text">
+                        Fintech startups, banks, and financial organizations planning to launch digital banking
+                    </p>
+                </div>
+                <div class="target-audience__item">
+                    <img src="./assets/images/target-audience/business.png" alt="Business pic" class="target-audience__image">
+                    <p class="target-audience__text">
+                        Businesses that are already developing a project, but would like to improve the process
+                    </p>
+                </div>
+                <div class="target-audience__item">
+                    <img src="./assets/images/target-audience/investor.png" alt="investor pic" class="target-audience__image">
+                    <p class="target-audience__text">
+                        Investors who want to invest in a project, but don't understand its real cost
+                    </p>
+                </div>
+            </div>
+            <button class="target-audience__button button">
+                Register
+            </button>
+        </div>
+    </section>
+    <section class="speaker" id="speaker">
+        <div class="container">
+            <div class="speaker__container">
+                <div class="section-title mobile">Speaker</div>
+                <div class="speaker__image-section">
+                    <picture>
+                        <source srcset="./assets/images/speaker/speaker-mobile.png" media="(max-width:767px)" />
+                        <img src="./assets/images/speaker/speaker.png" alt="Speaker pic" class="speaker__image" loading="lazy">
+                    </picture>
+                </div>
+                <div class="speaker__item">
+                    <div class="section-title">
+                        Alexander Arabey
+                    </div>
+                    <div class="speaker__subtitle">
+                        Director of Business Development, Qulix Systems
+                    </div>
+                    <p class="speaker__text">
+                        Alexander has more than 20 years' experience in the field of digital banking and fintech. He is
+                        ready to share his expertise and give you valuable advice during this webinar.
+                    </p>
+                    <button class="speaker__button button">
+                        Register now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="backdrop"></div>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,5 @@
+const MOBILE_RES = 768;
+
 const burgerButton = document.querySelector('.header-burger');
 const headerNav = document.querySelector('.header-nav');
 const backdrop = document.querySelector('.backdrop');
@@ -7,8 +9,10 @@ const headerTogglers = [burgerButton, backdrop, closeButton, ...navLinks];
 
 headerTogglers.forEach(toggler => {
     toggler.addEventListener('click', () => {
-        headerNav.classList.toggle('active');
-        backdrop.classList.toggle('active');
-        document.body.classList.toggle('scroll-y-disabled');
+        if (window.innerWidth < MOBILE_RES) {
+            headerNav.classList.toggle('active');
+            backdrop.classList.toggle('active');
+            document.body.classList.toggle('scroll-y-disabled');
+        }
     })
 })
